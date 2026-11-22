@@ -1,0 +1,14 @@
+# Ignorar datasets y muestras
+data_raw/
+data_staging/
+muestras_ia/
+*.jsonl
+*.csv
+*.zip
+
+# Entornos y caché de Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.vscode/
