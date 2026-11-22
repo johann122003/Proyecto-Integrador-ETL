@@ -1,4 +1,4 @@
-# Pipeline ETL — Contratación Pública (SERCOP) y Datos Tributarios (SRI)
+# Pipeline ETL — Contratación Pública SERCOP y Datos Tributarios SRI
 
 Pipeline desarrollado en Python para la extracción, limpieza, anonimización y transformación de datos abiertos de contratación pública del Ecuador (estándar OCDS, 2022–2026) y registros tributarios del Servicio de Rentas Internas (catastro RUC de Pichincha y Guayas, y recaudación fiscal 2024), dejando las tablas listas para su carga en SQL Server.
 
@@ -57,7 +57,7 @@ python etl_transform.py
 
 ---
 
-## Fuentes de datos (APA 7.ª edición)
+## Fuentes de datos 
 
 **1. Contratación Pública del Ecuador — SERCOP (Estándar OCDS, 2022–2026)**
 Open Contracting Partnership. (s. f.). *Ecuador: Servicio Nacional de Contratación Pública (SERCOP) — Datos OCDS (Publicación 110)* [Conjunto de datos]. Open Contracting Data Registry. https://data.open-contracting.org/es/publication/110#access
