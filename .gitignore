@@ -1,14 +1,42 @@
-# Ignorar datasets y muestras
+# =============================================================================
+# .gitignore — Proyecto Integrador BI: SERCOP & SRI (2022-2026)
+# =============================================================================
+
+# Datasets pesados (>100MB — prohibidos por límites de GitHub)
 data_raw/
-data_staging/
+data_staging/*.csv
+!data_staging/samples/*.csv
 muestras_ia/
 *.jsonl
-*.csv
-*.zip
 
-# Entornos y caché de Python
-__pycache__/
-*.py[cod]
+# Backups físicos de Base de Datos (>100MB)
+*.bak
+backup/*.bak
+
+# Archivos comprimidos pesados
+*.zip
+*.tar.gz
+*.rar
+
+# Entornos virtuales y dependencias
 .venv/
 venv/
+env/
+ENV/
+
+# Caché y archivos generados por Python
+__pycache__/
+*.py[cod]
+*$py.class
+etl/logs/
+
+# Configuraciones de IDEs y editores
 .vscode/
+.idea/
+*.swp
+*.swo
+
+# Archivos del sistema operativo
+Thumbs.db
+Desktop.ini
+.DS_Store
